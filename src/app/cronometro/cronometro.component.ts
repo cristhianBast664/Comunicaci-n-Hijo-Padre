@@ -14,7 +14,7 @@ export class CronometroComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.segundo = this.inicio;;
+    this.segundo = this.inicio;
     setInterval(() => {
       this.segundo++;
       if (this.segundo % 10 == 0){

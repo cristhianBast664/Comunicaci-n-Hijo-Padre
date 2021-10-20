@@ -9,6 +9,6 @@ export class AppComponent {
   mensaje = "";
 
   actualizar(t: Event){
-    this.mensaje = t + '(se actualiza cada 10 segundos)';
+    this.mensaje = t + ' (se actualiza cada 10 segundos)';
   }
 }
